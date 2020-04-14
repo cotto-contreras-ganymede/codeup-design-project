@@ -6,6 +6,8 @@
 
 body {
     background-color: #F0F0F0;
+    margin: 5px;
+    /*font-family: */
 }
 .h-divider{
     margin-top:25px;
@@ -28,6 +30,9 @@ p {
     font-family: "Abel", sans-serif;
 }
 
+.logo {
+    width: 30vw;
+}
 
 .design {
     background-color: #E6563B
@@ -43,11 +48,21 @@ p {
 }
 
 .circle{
-    border: solid white .5em;
+    border: solid white 1em;
     color: white;
     border-radius: 50%;
-    height: 130px;
-    width: 130px;
+    width: 25vw;
+    padding: 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-circles {
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 50%;
+    width: 25vw;
+    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
