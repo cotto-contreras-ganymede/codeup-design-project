@@ -2,7 +2,6 @@
 
 
 * {
-    /*box-sizing: border-box;*/
     margin: 0;
     padding: 0;
 }
@@ -12,19 +11,6 @@ body {
 
 }
 
-/*!* Media Queries *!*/
-/*@media (max-width: 992px) {*/
-
-/*}*/
-
-/*@media (max-width: 768px) {*/
-
-/*}*/
-
-/*@media (max-width: 576px) {*/
-
-/*}*/
-
 :root {
     --main-bg-color: white;
     --main-lightgrey-color: lightgrey;
@@ -33,7 +19,6 @@ body {
     --main-green-color: #76B06C;
     --main-aqua-color: #00ABA9;
 }
-
 h2 {
     font-family: "Anton", sans-serif;
 }
@@ -41,10 +26,6 @@ h2 {
 h5 {
     font-family: "Abel", sans-serif;
 }
-/*.container {*/
-/*    !*max-width: 991px;*!*/
-/*    max-height: 100%;*/
-/*}*/
 
 hr {
     margin-top: 1rem;
@@ -52,15 +33,6 @@ hr {
     border: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
-
-
-/*.h-divider{*/
-/*    margin-top:25px;*/
-/*    margin-bottom:25px;*/
-/*    height:1px;*/
-/*    width:100%;*/
-/*    border-top:1px blue;*/
-
 
 .nav-link {
     font-family: "Abel", sans-serif;
@@ -92,11 +64,6 @@ p {
     font-family: "Anton", sans-serif;
 
 }
-
-.ball {
-    margin: 1em auto 1em auto;
-}
-
 
 .red {
     background-color: var(--main-red-color);
@@ -147,13 +114,11 @@ p {
     justify-content: center;
     font-family: 'Anton', sans-serif;
     font-size: 12px;
-
 }
 .dot-r {
     background-color: var(--main-red-color);
 
 }
-
 .dot-g {
     background-color: var(--main-gold-color);
 }
@@ -167,10 +132,9 @@ p {
 }
 
 .text-circles {
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: 100;
+    font-size: 15px;
 }
-
 #banner {
     background-color: white;
     width: 100%;
@@ -180,15 +144,5 @@ p {
     z-index: -1;
 }
 
-
-/*.text-circles {*/
-/*    height: 115px;*/
-/*    width: 115px;*/
-/*    border: 6px solid white;*/
-/*    text-align: center;*/
-/*    vertical-align: middle;*/
-/*    font-size: 20px;*/
-/*    border-radius: 50%;*/
-/*}*/
 
 
