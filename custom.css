@@ -41,7 +41,7 @@ h4 {
 }
 h5 {
     font-family: "Anton", sans-serif;
-    font-size: 28px;
+    font-size: 22px;
 }
 .abel {
     font-family: "Abel", sans-serif;
@@ -51,7 +51,7 @@ h5 {
 }
 hr {
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
     border: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -115,7 +115,8 @@ p {
 }
 .text-circles {
     font-size: 20px;
-    /*font-weight: lighter;*/
+    =
+    /*font-weight: normal;*/
 }
 .dot {
     height: 18px;
