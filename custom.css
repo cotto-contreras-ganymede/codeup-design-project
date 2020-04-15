@@ -137,8 +137,9 @@ p {
 .img-thumbnail {
     background-color: var(--main-lightgrey-color);
 }
+/*Work on Medium Sizing*/
 .mini {
-    width: 100%;
+    width: 100vh;
     height: 75px;
 }
 
